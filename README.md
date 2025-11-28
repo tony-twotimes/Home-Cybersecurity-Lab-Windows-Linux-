@@ -58,13 +58,53 @@ Enable WinRM from Powershell
 ### <img width="868" height="737" alt="image" src="https://github.com/user-attachments/assets/65cf027c-1ceb-44b5-b8ae-34ed98b4cd61" />
 
 
-Step 4: Enable SSH 
+Step 4: Install & Enable openSSH Server (Port 22) 
+
+### <img width="782" height="294" alt="image" src="https://github.com/user-attachments/assets/69d76790-fb61-4713-960d-03da0fa2def6" />
+
+*Verify SSH is Reachable*
+
+### <img width="705" height="91" alt="image" src="https://github.com/user-attachments/assets/4a88ca74-68c5-448e-a1f3-be67ad1fd63d" />
+
 
 Step 5: Install IIS 
 
+I added IIS to the Windows VM so the machine isn’t just sitting there with a few management ports open. By running a simple web server on ports 80 and 443, the Windows host starts to look more like a real system you’d run into in an enterprise environment. It gives me something meaningful to scan and interact with. Nmap can pull banners, grab headers, detect modules, and actually enumerate a service instead of just reporting closed ports. IIS basically helps round out the attack surface so the lab feels more realistic and useful for practicing basic web service reconnaissance.
+
+### <img width="1120" height="628" alt="image" src="https://github.com/user-attachments/assets/23ba2a6c-f877-452b-8fd1-de636c9d0149" />
+
+
 Step 6: Disable Firewall
 
+<img width="1116" height="631" alt="image" src="https://github.com/user-attachments/assets/3f154115-49a4-401a-b908-072ef7706c3c" />
+
+
 Step 7: Prepare for Hash Extraction 
+
+*Verify Windows User is an Admin*
+
+### <img width="506" height="507" alt="image" src="https://github.com/user-attachments/assets/e29d072c-b630-4fb4-b199-89b3f25c356d" />
+
+
+*Create a folder to export the hives 
+
+### <img width="1130" height="637" alt="image" src="https://github.com/user-attachments/assets/a23f59da-b69b-4013-9a7a-7dabbddbb55e" />
+
+*Export the SAM and SYSTEM Hives and Verify*
+
+<img width="602" height="357" alt="image" src="https://github.com/user-attachments/assets/1cafeec3-032e-4dcd-b7d9-47bc441298e4" />
+
+DONE!
+
+
+
+
+
+
+
+
+
+
 
 
 
