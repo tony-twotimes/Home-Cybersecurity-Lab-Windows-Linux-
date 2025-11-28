@@ -23,13 +23,41 @@ and performing legal password hash extraction and cracking within a controlled t
 
 ## Steps
 
-Step 1: Add users with passwords \>
+Phase 1: Verify Connectivity 
 
-*Ref 1: User Creation* 
+Step 1: ipconfig on command prompt in windows to verify network information
+
+### <img width="955" height="207" alt="image" src="https://github.com/user-attachments/assets/0e037c0f-17ee-43fb-9685-896754c13f7c" />
+
+Step 2: ping the network from the attacker Kali Linux machine
+  
+### <img width="784" height="286" alt="image" src="https://github.com/user-attachments/assets/d771e831-9bc3-46bd-b0b0-392561f35d9d" />
+
+Phase 2: Make Windows an Interesting Target 
+
+Step 1: Add local users 
+
+*User Creation* 
 
 ### <img width="419" height="259" alt="image" src="https://github.com/user-attachments/assets/0fc1281e-3815-4f5b-a882-9a0bbafa4e7e" />
 
 
-
 ### <img width="456" height="506" alt="image" src="https://github.com/user-attachments/assets/f423ee5e-1a1e-4d91-8d65-90c937032699" />
+
+Step 2: Enable SMB 
+
+Step 3: Enable WinRM
+
+Step 4: Enable SSH 
+
+Step 5: Install IIS 
+
+Step 6: Disable Firewall
+
+Step 7: Prepare for Hash Extraction 
+
+
+
+
+
 
