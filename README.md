@@ -46,7 +46,17 @@ Step 1: Add local users
 
 Step 2: Enable SMB 
 
+*From the Windows VM, we use Powershell to attempt to enable SMBProtocol 1 and 2.* 
+
+### <img width="789" height="106" alt="image" src="https://github.com/user-attachments/assets/d1b89e8f-f579-438e-99cc-753d3d8921d7" />
+
+
 Step 3: Enable WinRM
+
+Enable WinRM from Powershell 
+
+### <img width="868" height="737" alt="image" src="https://github.com/user-attachments/assets/65cf027c-1ceb-44b5-b8ae-34ed98b4cd61" />
+
 
 Step 4: Enable SSH 
 
