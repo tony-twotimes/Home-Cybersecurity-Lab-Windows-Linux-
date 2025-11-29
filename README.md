@@ -1,8 +1,8 @@
 # Home Cybersecurity Lab (Windows + Linux)
 
 ## Objective
-The purpose of this lab is to create a safe, isolated Windows environment with multiple user accounts and intentionally exposed services \>
-to practice core cybersecurity skills. This includes scanning and enumerating open ports, analyzing Windows services, exploring SMB configurations, \> 
+The purpose of this lab is to create a safe, isolated Windows environment with multiple user accounts and intentionally exposed services 
+to practice core cybersecurity skills. This includes scanning and enumerating open ports, analyzing Windows services, exploring SMB configurations, 
 and performing legal password hash extraction and cracking within a controlled two-machine setup.
 
 ### Skills Learned
